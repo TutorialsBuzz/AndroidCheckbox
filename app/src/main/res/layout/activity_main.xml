@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:context=".MainActivity"
+        android:id="@+id/root">
+
+    <!--android:layoutDirection="rtl"-->
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox01"
+            android:text="checkbox"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+    />
+
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/checkbox02"
+              android:text="checkbox"
+              android:padding="10dp"
+              android:textSize="16sp"
+              android:theme="@style/CustomCheckbox01"
+    />
+
+</LinearLayout>
