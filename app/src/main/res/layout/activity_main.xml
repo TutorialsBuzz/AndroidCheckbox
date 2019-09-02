@@ -10,12 +10,11 @@
         tools:context=".MainActivity"
         android:id="@+id/root">
 
-    <!--android:layoutDirection="rtl"-->
     <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/checkbox01"
-            android:text="checkbox"
+            android:text="checkbox 01"
             android:padding="10dp"
             android:textSize="16sp"
             android:textColor="#000"
@@ -24,10 +23,8 @@
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:id="@+id/checkbox02"
-              android:text="checkbox"
+              android:text="checkbox 02"
               android:padding="10dp"
-              android:textSize="16sp"
-              android:theme="@style/CustomCheckbox01"
-    />
+              android:textSize="16sp"/>
 
 </LinearLayout>
